@@ -174,10 +174,13 @@ nav ul {
 .interest-content {
     display: flex;
     flex-direction: column;
-    width:40em;
+    justify-content: center;
+    align-items: center;
+    width:60em;
     background-color: rgb(235, 221, 111);
     margin:2em;
-    border-radius: 10px;
+    border-radius: 8px;
+    overflow: none;
 }
 
 .interest-content-text {
@@ -262,13 +265,12 @@ nav ul {
     margin: 0;
 }
 
-
 .project-content-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-
+    overflow: none;
 }
 
 .project-content {
