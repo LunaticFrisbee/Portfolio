@@ -180,8 +180,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     background-color: rgb(235, 221, 111);
-    width: 30rem;
-    height: 40rem;
+    width: 20rem;
+    height: 30rem;
     margin: 3rem;
     border-radius: 8px;
 }
@@ -257,104 +257,6 @@ nav ul {
     width:250px;
     object-fit: cover;
 }
-
-/* 
-.interests-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 14rem;
-}
-
-.interests-heading {
-    color: rgb(108, 237, 251);
-    font-size: 4.2rem;
-}
-
-.interest-parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 50vw;
-}
-
-.interest-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(235, 221, 111);
-    margin:3.5rem;
-    border-radius: 8px;
-}
-
-.interest-content-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.75rem;
-    animation: rainbow 4s linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes rainbow{
-    100%,0%{
-        color: rgb(255,0,0);
-    }
-    8%{
-        color: rgb(255,127,0);
-    }
-    16%{
-        color: rgb(14, 40, 186);
-    }
-    25%{
-        color: rgb(127,255,0);
-    }
-    33%{
-        color: rgb(0,255,0);
-    }
-    41%{
-        color: rgb(0,255,127);
-    }
-    50%{
-        color: rgb(31, 52, 52);
-    }
-    58%{
-        color: rgb(0,127,255);
-    }
-    66%{
-        color: rgb(0,0,255);
-    }
-    75%{
-        color: rgb(127,0,255);
-    }
-    83%{
-        color: rgb(255,0,255);
-    }
-    91%{
-        color: rgb(255,0,127);
-    }
-}
-
-.interest-content-text > p {
-    font-size: 2.75rem;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.interest-image {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3.5rem;
-}
-
-.interest-image > img {
-    border-radius: 10px;
-} */
 
 .projects-container {
     display: flex;
